@@ -1,9 +1,9 @@
-import type { Transaction } from '../types'
+// import type { Transaction } from '../types'
 
 function getSeasonDay(date: Date): number {
     const year = date.getFullYear();
     const month = date.getMonth() + 1; // 1–12
-    const day = date.getDate();
+    // const day = date.getDate();
 
     let seasonStart: Date;
 
@@ -30,7 +30,7 @@ function getSeasonPoints(day: number): number {
     if (day === 1) return 2;
     if (day === 2) return 3;
 
-    let points = 0;
+    // let points = 0;
 
     const pointsArr: number[] = [2, 3];
 
@@ -44,7 +44,7 @@ function getSeasonPoints(day: number): number {
 
 
 
-export default function CardBalance({ transactions }: { transactions: Transaction[] }) {
+export default function CardBalance() {
     const maxLimit = 1500
     const balance = parseFloat((Math.random() * maxLimit).toFixed(2))
 
