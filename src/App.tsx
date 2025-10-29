@@ -14,7 +14,7 @@ export default function App() {
             <main className="container">
                 {!selected ? (
                     <>
-                        <CardBalance transactions={transactionsData as Transaction[]} />
+                        <CardBalance />
                         <TransactionsList
                             transactions={transactionsData as Transaction[]}
                             onSelect={(t) => setSelected(t)}

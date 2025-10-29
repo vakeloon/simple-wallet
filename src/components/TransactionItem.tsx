@@ -29,7 +29,7 @@ export default function TransactionItem({ tx, onClick }: { tx: Transaction; onCl
         <div className="tx-item" onClick={onClick}>
             <div className="tx-left">
                 <div className="avatar">
-                    <FontAwesomeIcon icon={iconMap[tx.icon]} color="white" />
+                    <FontAwesomeIcon icon={iconMap[tx.icon as keyof typeof iconMap]} color="white" />
                 </div>
                 <div>
                     <div className="tx-name">{tx.transaction_name}</div>
