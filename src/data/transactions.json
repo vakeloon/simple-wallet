@@ -1,0 +1,95 @@
+[
+  {
+    "id": "1",
+    "type": "Credit",
+    "amount": 14.06,
+    "transaction_name": "Apple",
+    "transaction_description": "Card Number Used",
+    "date": "2025-10-28",
+    "pending": true,
+    "authorized_user": "Diana",
+    "icon": "apple"
+  },
+  {
+    "id": "2",
+    "type": "Payment",
+    "amount": 174.00,
+    "transaction_name": "Payment",
+    "transaction_description": "From JPMorgan Chase Bank National",
+    "date": "2025-10-27",
+    "icon": "apple"
+  },
+  {
+    "id": "3",
+    "type": "Credit",
+    "amount": 3.24,
+    "transaction_name": "Apple",
+    "transaction_description": "Card Number Used",
+    "date": "2025-10-27",
+    "authorized_user": "Diana",
+    "icon": "apple"
+  },
+  {
+    "id": "4",
+    "type": "Payment",
+    "amount": 99.71,
+    "transaction_name": "Payment",
+    "transaction_description": "From JPMorgan Chase Bank National",
+    "date": "2025-10-26",
+    "icon": "apple"
+  },
+  {
+    "id": "5",
+    "type": "Payment",
+    "amount": 73.58,
+    "transaction_name": "Payment",
+    "transaction_description": "From JPMorgan Chase Bank National",
+    "date": "2025-10-25",
+    "icon": "apple"
+  },
+  {
+    "id": "6",
+    "type": "Credit",
+    "amount": 21.61,
+    "transaction_name": "IKEA",
+    "transaction_description": "Round Rock, TX",
+    "date": "2025-10-15",
+    "icon": "house"
+  },
+  {
+    "id": "7",
+    "type": "Credit",
+    "amount": 21.61,
+    "transaction_name": "IKEA",
+    "transaction_description": "Round Rock, TX",
+    "date": "2025-10-15",
+    "icon": "gear"
+  },
+  {
+    "id": "8",
+    "type": "Credit",
+    "amount": 21.61,
+    "transaction_name": "IKEA",
+    "transaction_description": "Round Rock, TX",
+    "date": "2025-10-15",
+    "icon": "gear"
+  },
+  {
+    "id": "9",
+    "type": "Credit",
+    "amount": 21.61,
+    "transaction_name": "IKEA",
+    "transaction_description": "Round Rock, TX",
+    "date": "2025-10-15",
+    "icon": "gear"
+  },
+  {
+    "id": "10",
+    "type": "Credit",
+    "amount": 21.61,
+    "transaction_name": "IKEA",
+    "transaction_description": "Round Rock, TX",
+    "date": "2025-10-15",
+    "icon": "gear"
+  }
+]

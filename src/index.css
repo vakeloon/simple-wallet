@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --bg:#f6f6f7;
+    --card:#ffffff;
+    --muted:#777;
+    --accent:#111;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body,html,#root {
+    height:100%;
+    margin:0;
+}
+.app {
+    background:var(--bg);
+    min-height:100vh;
+    padding:16px
+}
+
+.header {
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:12px
+}
+
+.container {
+    max-width:420px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.card-block {
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    height: 180px;
+}
+
+.card-block-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    height: 100%;
+}
+
+.card-block-left .card {
+    flex: 1;
+}
+
+.card-block-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-block-right .card {
+    flex: 1;
+    display: flex;
+}
+
+.card {
+    align-items: start;
+    background: var(--card);
+    padding: 8px 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    font-size: 14px;
+    flex-direction: column;
+}
+
+
+.balance-amount {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: 28px;
+}
+.available, .daily-points-count, .no-payment-desc {
+    color:var(--muted);
+}
+
+.card.daily-points {
+    justify-content: center;
+    align-content: center;
+}
+
+
+/*.no-payment{font-size:12px;color:#666}*/
+
+.transactions-title{font-weight:700;margin:8px 0}
+.tx-list{display:flex;flex-direction:column;gap:8px}
+.tx-item {
+    display:flex;
+    justify-content:space-between;
+    align-items:stretch;
+    padding:10px;
+    background:white;
+    border-radius:10px;
+    cursor:pointer
+}
+.tx-left{display:flex;gap:10px;align-items:center}
+.avatar {
+    width:44px;
+    height:44px;
+    background: #515151;
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.avatar.appleGray {
+    font-size: 16px;
+    background-color: #515151;
+}
+
+
+.tx-name{font-weight:600}
+.tx-meta {
+    font-size:12px;
+    color:var(--muted);
+    display: flex;
+    flex-direction: column;
+}
+.tx-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.details {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: flex-start;
+    width:100%;
+    height:100vh;
+}
+
+.card.detail {
+    background:white;
+    padding:12px;
+    border-radius:12px;
+    width: 95%;
+    margin-top: 30px;
+}
+.back-btn {
+    margin-bottom:8px;
+    background:transparent;
+    border:none;
+    color:blue;
+    cursor:pointer;
+    padding:4px;
+    position: absolute;
+    left:10px;
+}
+.detail-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: 48px;
+    margin-top:48px;
+}
+.detail-user, .detail-date, .detail-desc {margin-top:8px;color:var(--muted)}
+.detail-row {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-row span {
+    font-weight: 700;
+}
+
+.line {
+    border: none;
+    height: 1px;
+    background-color: rgba(204, 204, 204, 0.5);
+    margin: 10px 0;
+}
